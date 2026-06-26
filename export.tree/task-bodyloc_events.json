@@ -1,0 +1,16 @@
+{
+  "onset": {
+    "Description": "Event onset from the start of the corresponding BOLD run.",
+    "Units": "s"
+  },
+  "duration": {
+    "Description": "Event duration.",
+    "Units": "s"
+  },
+  "trial_type": {
+    "Description": "Condition label from the body localizer task onset files."
+  },
+  "amplitude": {
+    "Description": "Original third column from the FSL FEAT onset files. Values are 1."
+  }
+}
