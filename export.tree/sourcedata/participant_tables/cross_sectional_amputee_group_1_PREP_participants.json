@@ -1,0 +1,47 @@
+{
+  "participant_id": {
+    "Description": "participant id"
+  },
+  "age": {
+    "Description": "age"
+  },
+  "sex": {
+    "Description": "sex"
+  },
+  "group": {
+    "Description": "group"
+  },
+  "dataset_group": {
+    "Description": "dataset group"
+  },
+  "training_group": {
+    "Description": "training group"
+  },
+  "amputated_side": {
+    "Description": "amputated side"
+  },
+  "level_of_amputation": {
+    "Description": "level of amputation"
+  },
+  "handedness": {
+    "Description": "handedness"
+  },
+  "phantom_limb_sensations": {
+    "Description": "phantom limb sensations"
+  },
+  "phantom_limb_pain": {
+    "Description": "phantom limb pain"
+  },
+  "residual_limb_pain": {
+    "Description": "residual limb pain"
+  },
+  "prosthesis_type": {
+    "Description": "prosthesis type"
+  },
+  "prosthesis_usage": {
+    "Description": "prosthesis usage"
+  },
+  "original_subject_id": {
+    "Description": "original subject id"
+  }
+}
