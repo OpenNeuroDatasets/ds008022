@@ -1,5 +1,5 @@
 {
-    "Name": "Stable cortical body maps before and after arm amputation",
+    "Name": "Longitudinal functional MRI datasets of finger tapping and whole-body movement before and after upper-limb amputation",
     "BIDSVersion": "1.10.0",
     "DatasetType": "raw",
     "Authors": [
