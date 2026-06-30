@@ -1,0 +1,18 @@
+{
+  "age": {
+    "Description": "Age in years at initial study participation."
+  },
+  "sex": {
+    "Description": "Self-reported sex.",
+    "Levels": {
+      "F": "female",
+      "M": "male"
+    }
+  },
+  "group": {
+    "Description": "Participant group.",
+    "Levels": {
+      "control": "Able-bodied control participant"
+    }
+  }
+}

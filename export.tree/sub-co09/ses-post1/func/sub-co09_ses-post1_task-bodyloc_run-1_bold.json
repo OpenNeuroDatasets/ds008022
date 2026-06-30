@@ -1,0 +1,19 @@
+{
+  "TaskName": "bodyloc",
+  "TaskDescription": "Body localizer task used to map responses to movements or imagery of body parts including hands, arm, foot, lips, and imagined hand movements.",
+  "Instructions": "Participants performed or imagined the cued body-part movement according to visual task prompts.",
+  "Manufacturer": "Siemens",
+  "ManufacturersModelName": "Prisma",
+  "MagneticFieldStrength": 3,
+  "ReceiveCoilName": "32-channel head coil",
+  "PulseSequenceType": "Multiband gradient echo-planar T2*-weighted sequence",
+  "RepetitionTime": 1.0,
+  "EchoTime": 0.035,
+  "FlipAngle": 70,
+  "MultibandAccelerationFactor": 4,
+  "AcquisitionMatrixPE": 106,
+  "ReconMatrixPE": 106,
+  "SliceThickness": 2,
+  "SpacingBetweenSlices": 2,
+  "NumberOfSlices": 72
+}

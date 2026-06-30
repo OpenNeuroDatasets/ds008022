@@ -1,0 +1,13 @@
+{
+  "Manufacturer": "Siemens",
+  "ManufacturersModelName": "Prisma",
+  "MagneticFieldStrength": 3,
+  "ReceiveCoilName": "32-channel head coil",
+  "PulseSequenceType": "T1-weighted magnetization prepared rapid acquisition gradient echo sequence",
+  "MRAcquisitionType": "3D",
+  "RepetitionTime": 2.53,
+  "EchoTime": 0.00334,
+  "FlipAngle": 7,
+  "Defaced": true,
+  "DefacingMethod": "fsl_deface was used to remove face voxels from anatomical images."
+}
