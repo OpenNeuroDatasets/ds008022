@@ -1,0 +1,337 @@
+# Stable cortical body maps before and after arm amputation: longitudinal and cross-sectional MRI datasets
+
+## Overview
+
+This OpenNeuro release accompanies the study:
+
+**Schone HR, et al. Stable cortical body maps before and after arm amputation. Nature Neuroscience. 2025;28:2015–2021. https://doi.org/10.1038/s41593-025-02037-7**
+
+The repository combines **four independent MRI datasets** that were analyzed together in the accompanying manuscript. Together these datasets comprise longitudinal and cross-sectional MRI data from individuals with upper-limb amputation together with several able-bodied comparison groups.
+
+The primary dataset consists of three individuals who underwent planned upper-limb amputation and were scanned repeatedly before and after surgery, together with a longitudinal able-bodied control group. Three additional datasets provide independent comparison cohorts of able-bodied participants and chronic upper-limb amputees.
+
+All data are organized according to the Brain Imaging Data Structure (BIDS).
+
+---
+
+# Included studies
+
+| Study                                  |             Participants | Sessions | Functional MRI                                   | Anatomical MRI                      |
+| -------------------------------------- | -----------------------: | -------: | ------------------------------------------------ | ----------------------------------- |
+| Longitudinal amputee study             | 3 amputees + 16 controls |      4–5 | Finger mapping (4 runs), Body localizer (2 runs) | Full-head T1w, defaced              |
+| Younger_Able-Bodied_Controls           |              11 controls |        2 | Finger mapping (4 runs)                          | Full-head T1w, defaced              |
+| Cross-sectional amputee/control group 1 (PREP) | 19 amputees + 6 controls |        1 | Body localizer                                   | Brain-extracted, bias-corrected T1w |
+| Cross-sectional amputee/control group 2 (SEM)  | 8 amputees + 12 controls |        1 | Body localizer                                   | Brain-extracted T1w                 |
+
+Total participants included:
+
+* **30 upper-limb amputees**
+* **45 able-bodied control participants**
+
+---
+
+# Participant identifiers
+
+Participant identifiers indicate both participant group and source study.
+
+### Longitudinal amputee study
+
+| Participant IDs     | Description                       |
+| ------------------- | --------------------------------- |
+| sub-aa01 – sub-aa03 | Longitudinal amputee participants |
+| sub-co01 – sub-co16 | Longitudinal able-bodied controls |
+
+### Younger_Able-Bodied_Controls
+
+| Participant IDs     | Description                                             |
+| ------------------- | ------------------------------------------------------- |
+| sub-CF01 – sub-CF10 | Piano-training control participants                     |
+
+### Cross-sectional amputee group 1 (PREP)
+
+| Participant IDs     | Description          |
+| ------------------- | -------------------- |
+| sub-aa04 – sub-aa22 | Chronic amputees     |
+| sub-co17 – sub-co22 | Able-bodied controls |
+
+### Cross-sectional amputee group 2 (SEM)
+
+| Participant IDs     | Description          |
+| ------------------- | -------------------- |
+| sub-aa23 – sub-aa30 | Chronic amputees     |
+| sub-co23 – sub-co34 | Able-bodied controls |
+
+---
+
+# Study 1: Longitudinal amputee study
+
+## Purpose
+
+This is the primary dataset associated with the accompanying Nature Neuroscience publication. Three individuals undergoing planned upper-limb amputation were scanned repeatedly before surgery and longitudinally following amputation to characterize the stability of cortical body maps after limb loss.
+
+A longitudinal able-bodied control cohort was scanned across a comparable six-month interval to quantify normal longitudinal variability.
+
+## Participants
+
+* 3 upper-limb amputees
+* 16 able-bodied controls
+
+## Sessions
+
+### Amputee participants
+
+| Session   | Description                                                               |
+| --------- | ------------------------------------------------------------------------- |
+| ses-pre1  | Baseline scan before amputation                                           |
+| ses-pre2  | Second baseline scan (~24 hours later)                                    |
+| ses-post1 | Approximately 3 months after amputation                                   |
+| ses-post2 | Approximately 6 months after amputation                                   |
+| ses-post3 | Additional long-term follow-up (sub-aa01: ~1.5 years; sub-aa02: ~5 years) |
+
+### Able-bodied controls
+
+The same session labels denote approximately equivalent longitudinal intervals.
+
+## Data included
+
+Each available session contains:
+
+### anat/
+
+A T1-weighted anatomical image.
+
+All anatomical scans were defaced using **FSL fsl_deface** before public release.
+
+### func/
+
+Four runs of the finger mapping task.
+
+Two runs of the body localizer task.
+
+---
+
+# Study 2: Younger_Able-Bodied_Controls
+
+## Purpose
+
+This dataset was originally collected for the supernumerary robotic thumb study described by Kieliba et al. (Science Robotics).
+
+It is included here as a younger longitudinal control cohort because participant **sub-aa01** was substantially younger than the original longitudinal control group.
+
+## Participants
+
+11 healthy adults
+
+Two training groups:
+
+* **CF participants:** completed right-handed piano training over the same interval, so the left-hand was used to investgate typical changes over 1 week. 
+
+## Sessions
+
+Each participant includes
+
+* ses-pre
+* ses-post
+
+## Data included
+
+Each session contains
+
+### anat/
+
+A defaced T1-weighted anatomical image.
+
+### func/
+
+Four runs of the finger mapping task.
+
+Although bilateral finger movements were collected, only the **left-hand conditions** were analyzed in the accompanying manuscript because training occurred using the right hand.
+
+---
+
+# Study 3: Cross-sectional amputee group 1 (PREP)
+
+## Purpose
+
+This dataset was originally collected as part of a separate study investigating prosthesis users.
+
+In the accompanying Nature Neuroscience manuscript these data served as an independent chronic amputee comparison cohort.
+
+## Participants
+
+* 19 upper-limb amputees
+* 6 able-bodied controls
+
+## Sessions
+
+Each participant includes one session:
+
+* ses-crosssectional
+
+## Data included
+
+### anat/
+
+Brain-extracted, bias-corrected T1-weighted anatomical image.
+
+Unlike the longitudinal datasets, these anatomical images do **not** contain the full head and therefore differ from conventional T1-weighted acquisitions.
+
+### func/
+
+One body localizer BOLD run.
+
+---
+
+# Study 4: Cross-sectional amputee group 2 (SEM)
+
+## Purpose
+
+This dataset represents an additional independent chronic upper-limb amputee cohort used as a second cross-sectional comparison group in the accompanying manuscript.
+
+## Participants
+
+* 8 upper-limb amputees
+* 12 able-bodied controls
+
+## Sessions
+
+Each participant includes one session:
+
+* ses-crosssectional
+
+## Data included
+
+### anat/
+
+Brain-extracted T1-weighted anatomical image.
+
+### func/
+
+One body localizer BOLD run.
+
+---
+
+# Experimental tasks
+
+## Finger mapping task
+
+The finger mapping task was the primary experimental paradigm used throughout the accompanying study.
+
+Participants repeatedly performed visually cued movements involving individual digits together with lips and feet.
+
+Conditions include:
+
+* Left thumb
+* Left index
+* Left middle
+* Left ring
+* Left little finger
+* Right thumb
+* Right index
+* Right middle
+* Right ring
+* Right little finger
+* Lips
+* Feet
+
+Each session contains four functional runs.
+
+For every run, BIDS-compatible **events.tsv** files specify
+
+* onset
+* duration
+* trial_type
+* amplitude
+
+The amplitude column preserves the third column of the original FSL FEAT onset files.
+
+This task was acquired in
+
+* Longitudinal amputee study
+* Younger_Able-Bodied_Controls
+
+It was not acquired in PREP or SEM.
+
+---
+
+## Body localizer
+
+The body localizer task was used to localize broad cortical body representations.
+
+Different datasets employed slightly different versions of the task, although all shared the same general objective of identifying cortical representations of major body parts.
+
+Across the combined datasets, conditions include
+
+* Left hand
+* Right hand
+* Imagined left hand
+* Imagined right hand
+* Left arm / left elbow
+* Right arm / right elbow
+* Left foot
+* Right foot
+* Lips
+
+Body localizer runs were acquired in
+
+* Longitudinal amputee study
+* PREP
+* SEM
+
+---
+
+# Anatomical imaging
+
+The primary longitudinal dataset contains conventional whole-head T1-weighted anatomical images.
+
+These images were defaced using **FSL fsl_deface** prior to public release.
+
+The PREP and SEM datasets contain brain-extracted anatomical images obtained from the original studies. These images have already undergone skull stripping (and bias-field correction in PREP) and therefore differ from conventional T1-weighted structural images.
+
+---
+
+# Participant metadata
+
+The root **participants.tsv** provides harmonized demographic and clinical information across all four studies.
+
+Additional study-specific participant tables are provided in
+
+```
+sourcedata/participant_tables/
+```
+
+These preserve study-specific demographic and clinical variables, including where available
+
+* age
+* sex
+* handedness
+* level of amputation
+* side of amputation
+* cause of amputation
+* prosthesis use
+* phantom limb pain
+* phantom limb sensations
+* residual limb pain
+* longitudinal scan timing
+
+---
+
+# Ethics
+
+Ethical approval for the longitudinal study was granted by the NHS National Research Ethics Committee (18/LO/0474) and conducted in accordance with the Declaration of Helsinki (2013 revision).
+
+Ethics approval for the remaining datasets is described in the corresponding original publications.
+
+---
+
+# Funding
+
+The longitudinal study was supported by a Wellcome Trust Senior Research Fellowship (215575/Z/19/Z) awarded to T.R.M., who is also received support from the Medical Research Council (MC_UU_00030/10). H.R.S. and C.I.B. were supported by the Intramural Research Program of the National Institute of Mental Health (ZIAMH002893). H.R.S. was additionally supported by the National Institute of Mental Health through F32MH139145. This research was supported in part by the Intramural Research Program of the National Institutes of Health.
+
+---
+
+# Citation
+
+If you use these data, please cite
+
+Schone HR, Maimon-Mor RO, Kollamkulam M, et al. *Stable cortical body maps before and after arm amputation.* Nature Neuroscience. 2025;28:2015–2021. https://doi.org/10.1038/s41593-025-02037-7

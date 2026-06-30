@@ -1,0 +1,13 @@
+{
+  "TaskName": "fingers",
+  "StudyName": "Younger_Able-Bodied_Controls",
+  "RepetitionTime": 1.45,
+  "NumberOfVolumes": 346,
+  "NumberOfSlices": 72,
+  "AcquisitionMatrixPE": 106,
+  "ReconMatrixPE": 106,
+  "VoxelSize": "2 x 2 x 2 mm",
+  "TaskDescription": "Finger mapping task involving movements of left and right fingers, with additional feet and lips conditions.",
+  "Instructions": "Participants followed visual task prompts.",
+  "MetadataNote": "Metadata were reconstructed from available NIfTI headers and study documentation. Fields not recoverable from the NIfTI header were omitted rather than inferred."
+}

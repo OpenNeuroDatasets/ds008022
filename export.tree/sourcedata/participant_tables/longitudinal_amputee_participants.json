@@ -1,0 +1,106 @@
+{
+  "participant_id": {
+    "Description": "BIDS participant identifier used in this dataset. sub-aa01 corresponds to original source/code sub-aa06."
+  },
+  "paper_case_id": {
+    "Description": "Case-study identifier used in the accompanying participant table."
+  },
+  "age_at_first_scan": {
+    "Description": "Age in years at first scan."
+  },
+  "sex": {
+    "Description": "Self-reported sex.",
+    "Levels": {
+      "F": "female",
+      "M": "male"
+    }
+  },
+  "handedness_at_birth": {
+    "Description": "Reported handedness at birth."
+  },
+  "group": {
+    "Description": "Participant group.",
+    "Levels": {
+      "amputee": "Upper-limb amputee participant"
+    }
+  },
+  "amputated_side": {
+    "Description": "Side of amputated limb.",
+    "Levels": {
+      "L": "left",
+      "R": "right"
+    }
+  },
+  "cause_of_amputation": {
+    "Description": "Clinical cause of amputation."
+  },
+  "disability_duration": {
+    "Description": "Duration or history of pre-amputation limb disability."
+  },
+  "amputated_limb": {
+    "Description": "Amputated limb."
+  },
+  "level_of_amputation": {
+    "Description": "Anatomical level of amputation."
+  },
+  "amputation_surgery": {
+    "Description": "Surgical approach used at amputation."
+  },
+  "phantom_position_and_mobility": {
+    "Description": "Reported position and mobility of the phantom limb."
+  },
+  "phantom_sensations_onset": {
+    "Description": "Reported onset of phantom sensations after amputation."
+  },
+  "session_pre1_timing": {
+    "Description": "Timing of ses-pre1 relative to amputation."
+  },
+  "session_pre2_timing": {
+    "Description": "Timing of ses-pre2 relative to amputation."
+  },
+  "session_post1_timing": {
+    "Description": "Timing of ses-post1 relative to amputation."
+  },
+  "session_post2_timing": {
+    "Description": "Timing of ses-post2 relative to amputation."
+  },
+  "session_post3_timing": {
+    "Description": "Timing of ses-post3 relative to amputation, where available."
+  },
+  "phantom_limb_sensation_intensity_3m_6m_post3": {
+    "Description": "Phantom limb sensation intensity on a 0-100 scale at post1/post2/post3 equivalent timepoints where available."
+  },
+  "phantom_limb_sensation_frequency": {
+    "Description": "Reported phantom limb sensation frequency across post-amputation follow-up timepoints."
+  },
+  "chronic_pls_intensity_3m_6m_post3": {
+    "Description": "Chronic phantom limb sensation intensity on a 0-100 scale at post1/post2/post3 equivalent timepoints where available."
+  },
+  "limb_pain_intensity_pre_3m_6m_post3": {
+    "Description": "Limb pain intensity on a 0-100 scale at pre/post1/post2/post3 equivalent timepoints where available."
+  },
+  "limb_pain_frequency": {
+    "Description": "Reported limb pain frequency across timepoints."
+  },
+  "chronic_limb_pain_pre_3m_6m_post3": {
+    "Description": "Chronic limb pain intensity on a 0-100 scale at pre/post1/post2/post3 equivalent timepoints where available."
+  },
+  "transient_limb_pain_pre_3m_6m_post3": {
+    "Description": "Transient limb pain intensity on the day on a 0-100 scale at pre/post1/post2/post3 equivalent timepoints where available."
+  },
+  "pain_detect_score_pre_3m_6m_post3": {
+    "Description": "Pain Detect score as percent of maximum possible score at pre/post1/post2/post3 equivalent timepoints where available."
+  },
+  "pain_detect_pain_course": {
+    "Description": "Pain Detect pain course category/description across timepoints."
+  },
+  "upper_extremity_functional_index_pre_3m_6m_post3": {
+    "Description": "Upper Extremity Functional Index score expressed as percent impairment at pre/post1/post2/post3 equivalent timepoints where available."
+  },
+  "prosthesis_type": {
+    "Description": "Type of prosthesis reported."
+  },
+  "prosthesis_use": {
+    "Description": "Reported prosthesis use."
+  }
+}

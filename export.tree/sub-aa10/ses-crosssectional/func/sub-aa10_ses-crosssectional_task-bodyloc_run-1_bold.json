@@ -1,0 +1,13 @@
+{
+  "TaskName": "bodyloc",
+  "StudyName": "cross_sectional_amputee_group_1_PREP",
+  "RepetitionTime": 1.45,
+  "NumberOfVolumes": 414,
+  "NumberOfSlices": 72,
+  "AcquisitionMatrixPE": 106,
+  "ReconMatrixPE": 106,
+  "VoxelSize": "2 x 2 x 2 mm",
+  "TaskDescription": "Body localizer task involving body-part movement conditions.",
+  "Instructions": "Participants followed visual task prompts.",
+  "MetadataNote": "Metadata were reconstructed from available NIfTI headers and study documentation. Fields not recoverable from the NIfTI header were omitted rather than inferred."
+}

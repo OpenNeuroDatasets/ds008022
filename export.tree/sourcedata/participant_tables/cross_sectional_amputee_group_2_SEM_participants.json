@@ -1,0 +1,41 @@
+{
+  "participant_id": {
+    "Description": "participant id"
+  },
+  "age": {
+    "Description": "age"
+  },
+  "sex": {
+    "Description": "sex"
+  },
+  "group": {
+    "Description": "group"
+  },
+  "dataset_group": {
+    "Description": "dataset group"
+  },
+  "training_group": {
+    "Description": "training group"
+  },
+  "amputated_side": {
+    "Description": "amputated side"
+  },
+  "level_of_amputation": {
+    "Description": "level of amputation"
+  },
+  "phantom_limb_sensations": {
+    "Description": "phantom limb sensations"
+  },
+  "phantom_sensation_frequency_last_year": {
+    "Description": "phantom sensation frequency last year"
+  },
+  "phantom_limb_pain": {
+    "Description": "phantom limb pain"
+  },
+  "phantom_pain_frequency_last_year": {
+    "Description": "phantom pain frequency last year"
+  },
+  "original_subject_id": {
+    "Description": "original subject id"
+  }
+}
